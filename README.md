@@ -9,7 +9,7 @@ $ docker build -t okassov/aws-glue:ec2 .
 ## Usage
 
 ```console
-$ docker run -p8888:8888 --restart=always -d okassov/aws-glue-dev-ec2 jupyter
+$ docker run -p8888:8888 --restart=always -d okassov/aws-glue:ec2 jupyter
 ```
 
 Spark shell
